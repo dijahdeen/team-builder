@@ -24,20 +24,20 @@ const TeamForm = props => {
         <form onSubmit={submitTeamForm}>
             <label htmlFor="Name">Name:</label>
             <input
-
+                id="name"
                 name="name"
                 onChange={ChangingHandles}
             />
 
             <label htmlFor="Email"> Email:</label>
             <input
-
+                id="email"
                 name="email"
                 onChange={ChangingHandles}
             />
             <label htmlFor="Role"> Role:</label>
             <input
-
+                id="role"
                 name="role"
                 onChange={ChangingHandles}
             />

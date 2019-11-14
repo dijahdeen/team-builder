@@ -9,7 +9,7 @@ function App() {
 
   const [TeamMate, setTeamMate] = useState([
     {
-
+      id: '1',
       name: "Dijah Deen",
       email: 'khadijatudeenkarim@gmail.com',
       role: "Web Development student"
@@ -18,12 +18,12 @@ function App() {
 
   const getNewteamMember = teamMember => {
     const Newteammate = {
-
+      id: Date.now(),
       name: teamMember.name,
       email: teamMember.email,
       role: teamMember.role
     };
-    setTeamMate(Newteammate);
+    setTeamMate(TeamMate, Newteammate);
   }
   return (
     <div>
