@@ -23,7 +23,7 @@ function App() {
       email: teamMember.email,
       role: teamMember.role
     };
-    setTeamMate(TeamMate, Newteammate);
+    setTeamMate([...TeamMate, Newteammate]);
   }
   return (
     <div>
